@@ -37,7 +37,7 @@ window.onload = () => {
       " " +
       what[aleatoriowhat] +
       " " +
-      when[alealeatoriowhenatoriocuando]
+      when[aleatoriowhen]
     );
   };
 };
