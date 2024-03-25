@@ -22,7 +22,8 @@ window.onload = () => {
       "when I was sleeping",
       "while I was exercising",
       "during my lunch",
-      "while I was praying"
+      "while I was praying",
+      "during the last night"
     ];
 
     let aleatoriowho = Math.floor(Math.random() * who.length);
