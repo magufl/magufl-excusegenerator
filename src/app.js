@@ -26,7 +26,13 @@ window.onload = () => {
       "during the last night"
     ];
 
-    let aleatoriowho = Math.floor(Math.random() * who.length);
+    let excusaarray = [who, action, what, when];
+    let excusa = excusaarray.map(item => {
+      return item[Math.floor(Math.random() * item.length)];
+    });
+
+    return excusa.join(" ");
+    /* let aleatoriowho = Math.floor(Math.random() * who.length);
     let aleatorioaction = Math.floor(Math.random() * action.length);
     let aleatoriowhat = Math.floor(Math.random() * what.length);
     let aleatoriowhen = Math.floor(Math.random() * when.length);
@@ -39,6 +45,6 @@ window.onload = () => {
       what[aleatoriowhat] +
       " " +
       when[aleatoriowhen]
-    );
+    ); */
   };
 };
